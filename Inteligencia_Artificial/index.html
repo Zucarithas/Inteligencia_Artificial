@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 1</title>
+</head>
+<body>
+    <h1>INTELIGENCIA ARTIFICIAL CLASE 1</h1>
+
+    <h2>Temas sugeridos</h2>
+    <p>Aprendimos a subir archivos a Github...</p>
+    <img src="C:\Users\LEB-\Downloads\Inteligencia_Artificial\PHOTO-2024-08-15-16-02-36.jpg" alt="Descripción de la imagen" />
+
+    <p>Vimos que datos se repetían y buscamos graficar de cierto que nos brindara dicha información en una gráfica de pastel.</p>
+
+    <h2>Temas sugeridos</h2>
+    <img src="C:\Users\LEB-\Downloads\Inteligencia_Artificial\PHOTO-2024-08-15-16-04-45.jpg" alt="Descripción de la imagen" />
+
+    <p>Se agruparon las actividades que eran similares y se contaron manualmente.</p>
+
+    <h2>Columnas</h2>
+    <img src="C:\Users\LEB-\Downloads\Inteligencia_Artificial\WhatsApp Image 2024-08-15 at 4.04.54 PM.jpeg" alt="Descripción de la imagen" />
+    <p>
+        Elegimos la columna número 5 y sacamos las palabras repetidas con la ayuda de ChatGPT, las rectificamos manualmente e hicimos lo mismo con las palabras únicas (que no se repetían). Luego, hicimos la suma de las palabras repetidas y también sacamos el número de palabras únicas, y por último hicimos un gráfico circular 3D con los números de las palabras repetidas.
+    </p>
+
+    <h2>Columnas</h2>
+    <img src="C:\Users\LEB-\Downloads\Inteligencia_Artificial\4.jpeg" alt="Descripción de la imagen" />
+    <p>
+        De manera manual tomé los nombres de las distintas IAs y luego conté cuántas veces se repetía cada una. Finalmente, junté los valores y generé un anillo con Excel donde podemos ver que lo que más se repite es ChatGPT.
+    </p>
+
+    <h2>Nombre de aplicaciones de IA</h2>
+    <img src="C:\Users\LEB-\Downloads\Inteligencia_Artificial\5.jpeg" alt="Descripción de la imagen" />
+    <p>
+        Yo utilicé Excel con fórmulas para sacar las palabras que estaban repetidas, separando el texto y luego contando las palabras más importantes de las inteligencias artificiales utilizando esta fórmula para contar las palabras que se repiten: 
+        <code>SUMA(SI(NO(ESERROR(BUSCAR("chat"; A25:AY41)));1;0))+SUMA(SI(NO(ESERROR(BUSCAR("chat gpt"; A25:AY41)));1;0))</code>
+    </p>
+
+    <h2>Tablas Dinámicas</h2>
+    <img src="C:\Users\LEB-\Downloads\Inteligencia_Artificial\6.jpeg" alt="Descripción de la imagen" />
+    <p>Se realizó utilizando fórmula de Excel y tablas dinámicas.</p>
+
+    <h2>Habilidades blandas</h2>
+    <img src="C:\Users\LEB-\Downloads\Inteligencia_Artificial\7.jpeg" alt="Descripción de la imagen" />
+    <p>
+        David Sarria - Valentina Montealegre: Nos dimos cuenta que hay varias coincidencias y todas apuntan hacia el hecho de que todos contamos con habilidades blandas suficientes y exactas para llevar a cabo un excelente trabajo en equipo.
+    </p>
+
+    <h2>Habilidades blandas</h2>
+    <img src="C:\Users\LEB-\Downloads\Inteligencia_Artificial\7.jpeg" alt="Descripción de la imagen" />
+    <p>
+        Básicamente lo que hicimos fue identificar, contar las palabras y finalmente estructuramos los resultados en una tabla de conteo que permite ver rápidamente la frecuencia de cada palabra y proporciona una visión general de los temas más mencionados, los cuales son la inseguridad, contaminación y transporte.
+    </p>
+    
+    <h1>Clase 2</h1>
+    <p><h2>IA, definición, las fronteras</h2></p>
+
+    <h1>Clase 3</h1>
+    <h2>Redes Neuronales</h2>
+    <p>
+        Toda red neuronal consta de capas de nodos o neuronas artificiales: una capa de entrada, una o varias capas ocultas y una capa de salida. Cada nodo se conecta a los demás y tiene su propia ponderación y umbral asociados. 
+        Las redes neuronales se basan en datos de entrenamiento para aprender y mejorar su precisión con el tiempo.
+        
+    <img src="redned.jpg" />
+    </p>
+
+
+
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comparación de Algoritmos: DFS vs BFS</title>
+        <style>
+            table {
+                width: 60%;
+                margin: 20px auto;
+                border-collapse: collapse;
+            }
+            th, td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Comparación de Resultados: DFS vs BFS</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Labyrinth</th>
+                    <th>Algoritmo</th>
+                    <th>Estados Explorados</th>
+                    <th>¿Encontró Solución?</th>
+                    <th>Camino</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lab 1</td>
+                    <td>DFS</td>
+                    <td>500</td> <!-- Cambia este valor según el resultado -->
+                    <td>Sí</td>
+                    <td>Camino DFS 1</td>
+                </tr>
+                <tr>
+                    <td>Lab 1</td>
+                    <td>BFS</td>
+                    <td>300</td> <!-- Cambia este valor según el resultado -->
+                    <td>Sí</td>
+                    <td>Camino BFS 1</td>
+                </tr>
+                <tr>
+                    <td>Lab 2</td>
+                    <td>DFS</td>
+                    <td>800</td> <!-- Cambia este valor según el resultado -->
+                    <td>No</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Lab 2</td>
+                    <td>BFS</td>
+                    <td>450</td> <!-- Cambia este valor según el resultado -->
+                    <td>Sí</td>
+                    <td>Camino BFS 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+    </html>
+
+
+
+    <h1>Clase 4</h1>
+    <h2>Redes neuronales y Tensorflow</h2>
+    <p>
+        Aprendimos para que se usa tensorflow  en google colab y 
+        
+    <img src="Captura.JPG" />
+    </p>
+
+
+
+    <h1>CUESTIONARIO</h1>
+    <h2>PRIMEROS Resultados</h2>
+    <p>
+        Aprendimos para que se usa tensorflow  en google colab y 
+        
+    <img src="resultad_test.JPG" />
+    </p>
+    <tr>    
+
+        <img src="resultado2.JPG" />
+    </tr>
+
+
+    <tr>    
+
+        <img src="resultado3.JPG" />
+    </tr>
+
+
+
+
+    <h1>CUESTIONARIO</h1>
+    <h2>PRIMEROS Resultados</h2>
+    <p>
+        parcial 2 
+        
+    </p>
+
+
+    logic.py 
+
+    import itertools<br>
+
+    # Clase base para representar oraciones lógicas<br>
+    class Sentence():<br>
+        
+        def evaluate(self, model):<br>
+            """Evalúa la oración lógica con un modelo dado."""<br>
+            raise Exception("nothing to evaluate")<br>
+    
+        def formula(self):<br>
+            """Devuelve la fórmula en forma de cadena que representa la oración lógica."""<br>
+            return ""<br>
+    
+        def symbols(self):<br>
+            """Devuelve un conjunto de todos los símbolos en la oración lógica."""<br>
+            return set()<br>
+    
+        @classmethod<br>
+        def validate(cls, sentence):<br>
+            """Valida que el objeto sea una instancia de Sentence."""<br>
+            if not isinstance(sentence, Sentence):<br>
+                raise TypeError("must be a logical sentence")<br>
+    
+        @classmethod<br>
+        def parenthesize(cls, s):<br>
+            """Agrega paréntesis a una expresión si no están ya presentes."""<br>
+            def balanced(s):<br>
+                """Verifica si una cadena tiene paréntesis balanceados."""<br>
+                count = 0<br>
+                for c in s:<br>
+                    if c == "(":<br>
+                        count += 1<br>
+                    elif c == ")":<br>
+                        if count <= 0:<br>
+                            return False<br>
+                        count -= 1<br>
+                return count == 0<br>
+            
+            if not len(s) or s.isalpha() or (<br>
+                s[0] == "(" and s[-1] == ")" and balanced(s[1:-1])<br>
+            ):<br>
+                return s<br>
+            else:<br>
+                return f"({s})"<br>
+    
+    # Clase para representar un símbolo<br>
+    class Symbol(Sentence):<br>
+    
+        def __init__(self, name):<br>
+            self.name = name  # Nombre del símbolo<br>
+    
+        def __eq__(self, other):<br>
+            """Compara si dos símbolos son iguales."""<br>
+            return isinstance(other, Symbol) and self.name == other.name<br>
+    
+        def __hash__(self):<br>
+            """Genera un hash para el símbolo."""<br>
+            return hash(("symbol", self.name))<br>
+    
+        def __repr__(self):<br>
+            """Representación en cadena del símbolo."""<br>
+            return self.name<br>
+    
+        def evaluate(self, model):<br>
+            """Evalúa el símbolo en el modelo dado."""<br>
+            try:<br>
+                return bool(model[self.name])  # Devuelve el valor del modelo<br>
+            except KeyError:<br>
+                raise EvaluationException(f"variable {self.name} not in model")<br>
+    
+        def formula(self):<br>
+            """Devuelve la fórmula del símbolo."""<br>
+            return self.name<br>
+    
+        def symbols(self):<br>
+            """Devuelve el conjunto de símbolos (solo el propio símbolo)."""<br>
+            return {self.name}<br>
+    
+    # Clase para la negación<br>
+    class Not(Sentence):<br>
+        def __init__(self, operand):<br>
+            Sentence.validate(operand)  # Valida que el operando sea una oración lógica<br>
+            self.operand = operand<br>
+    
+        def __eq__(self, other):<br>
+            """Compara dos instancias de Not."""<br>
+            return isinstance(other, Not) and self.operand == other.operand<br>
+    
+        def __hash__(self):<br>
+            """Genera un hash para la negación."""<br>
+            return hash(("not", hash(self.operand)))<br>
+    
+        def __repr__(self):<br>
+            """Representación en cadena de la negación."""<br>
+            return f"Not({self.operand})"<br>
+    
+        def evaluate(self, model):<br>
+            """Evalúa la negación del operando."""<br>
+            return not self.operand.evaluate(model)<br>
+    
+        def formula(self):<br>
+            """Devuelve la fórmula de la negación."""<br>
+            return "¬" + Sentence.parenthesize(self.operand.formula())<br>
+    
+        def symbols(self):<br>
+            """Devuelve los símbolos del operando."""<br>
+            return self.operand.symbols()<br>
+    
+    # Clase para la conjunción<br>
+    class And(Sentence):<br>
+        def __init__(self, *conjuncts):<br>
+            for conjunct in conjuncts:<br>
+                Sentence.validate(conjunct)  # Valida cada conjunción<br>
+            self.conjuncts = list(conjuncts)<br>
+    
+        def __eq__(self, other):<br>
+            """Compara dos instancias de And."""<br>
+            return isinstance(other, And) and self.conjuncts == other.conjuncts<br>
+    
+        def __hash__(self):<br>
+            """Genera un hash para la conjunción."""<br>
+            return hash(("and", tuple(hash(conjunct) for conjunct in self.conjuncts)))<br>
+    
+        def __repr__(self):<br>
+            """Representación en cadena de la conjunción."""<br>
+            conjunctions = ", ".join([str(conjunct) for conjunct in self.conjuncts])<br>
+            return f"And({conjunctions})"<br>
+    
+        def add(self, conjunct):<br>
+            """Agrega una conjunción."""<br>
+            Sentence.validate(conjunct)<br>
+            self.conjuncts.append(conjunct)<br>
+    
+        def evaluate(self, model):<br>
+            """Evalúa la conjunción de los operandos."""<br>
+            return all(conjunct.evaluate(model) for conjunct in self.conjuncts)<br>
+    
+        def formula(self):<br>
+            """Devuelve la fórmula de la conjunción."""<br>
+            if len(self.conjuncts) == 1:<br>
+                return self.conjuncts[0].formula()<br>
+            return " ∧ ".join([Sentence.parenthesize(conjunct.formula())<br>
+                               for conjunct in self.conjuncts])<br>
+    
+        def symbols(self):<br>
+            """Devuelve el conjunto de símbolos de todos los operandos."""<br>
+            return set.union(*[conjunct.symbols() for conjunct in self.conjuncts])<br>
+    
+    # Clase para la disyunción<br>
+    class Or(Sentence):<br>
+        def __init__(self, *disjuncts):<br>
+            for disjunct in disjuncts:<br>
+                Sentence.validate(disjunct)  # Valida cada disyunción<br>
+            self.disjuncts = list(disjuncts)<br>
+    
+        def __eq__(self, other):<br>
+            """Compara dos instancias de Or."""<br>
+            return isinstance(other, Or) and self.disjuncts == other.disjuncts<br>
+    
+        def __hash__(self):<br>
+            """Genera un hash para la disyunción."""<br>
+            return hash(("or", tuple(hash(disjunct) for disjunct in self.disjuncts)))<br>
+    
+        def __repr__(self):<br>
+            """Representación en cadena de la disyunción."""<br>
+            disjuncts = ", ".join([str(disjunct) for disjunct in self.disjuncts])<br>
+            return f"Or({disjuncts})"<br>
+    
+        def evaluate(self, model):<br>
+            """Evalúa la disyunción de los operandos."""<br>
+            return any(disjunct.evaluate(model) for disjunct in self.disjuncts)<br>
+    
+        def formula(self):<br>
+            """Devuelve la fórmula de la disyunción."""<br>
+            if len(self.disjuncts) == 1:<br>
+                return self.disjuncts[0].formula()<br>
+            return " ∨  ".join([Sentence.parenthesize(disjunct.formula())<br>
+                                for disjunct in self.disjuncts])<br>
+    
+        def symbols(self):<br>
+            """Devuelve el conjunto de símbolos de todos los operandos."""<br>
+            return set.union(*[disjunct.symbols() for disjunct in self.disjuncts])<br>
+    
+    # Clase para la implicación<br>
+    class Implication(Sentence):<br>
+        def __init__(self, antecedent, consequent):<br>
+            Sentence.validate(antecedent)  # Valida el antecedente<br>
+            Sentence.validate(consequent)  # Valida el consecuente<br>
+            self.antecedent = antecedent<br>
+            self.consequent = consequent<br>
+    
+        def __eq__(self, other):<br>
+            """Compara dos instancias de Implication."""<br>
+            return (isinstance(other, Implication)<br>
+                    and self.antecedent == other.antecedent<br>
+                    and self.consequent == other.consequent)<br>
+    
+        def __hash__(self):<br>
+            """Genera un hash para la implicación."""<br>
+            return hash(("implies", hash(self.antecedent), hash(self.consequent)))<br>
+    
+        def __repr__(self):<br>
+            """Representación en cadena de la implicación
+    
+    <br>
+    <br>
+    <br>
+    <tr>    
+
+
+        estudiantesunimayor.py
+
+        from logic import *<br>
+
+# Definimos los símbolos<br>
+rain = Symbol("rain")<br>
+bbc = Symbol("bbc")<br>
+unimayor = Symbol("unimayor")<br>
+
+# Conocimientos basados en la situación descrita<br>
+knowledge = And(<br>
+    Implication(Not(rain), bbc),           # Si no llueve, los estudiantes visitan a BBC<br>
+    Or(bbc, unimayor),                     # Los estudiantes visitaron BBC o Unimayor, pero no ambos<br>
+    Not(And(bbc, unimayor)),               # No visitaron ambos<br>
+    unimayor                               # Los estudiantes visitaron Unimayor hoy<br>
+)<br>
+
+# Verificamos el modelo para BBC y rain<br>
+bbc_visited = model_check(knowledge, bbc)<br>
+rain_today = model_check(knowledge, rain)<br>
+
+print(f"¿Los estudiantes visitaron BBC? {bbc_visited}")<br>
+print(f"¿Hoy llovió? {rain_today}")<br>
+
+
+    </tr>
+
+
+
+</body>
+</html>
